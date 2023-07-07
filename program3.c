@@ -1,3 +1,4 @@
+//Detab program in c
 #include<stdio.h>
 #define tabwidth 10
 
