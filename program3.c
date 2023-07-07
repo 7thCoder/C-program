@@ -1,5 +1,5 @@
 #include<stdio.h>
-#define tabwidth 4
+#define tabwidth 10
 
 int main(){
     int c;
