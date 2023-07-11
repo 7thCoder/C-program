@@ -6,7 +6,7 @@ main(){
     char lng[1000];
     int i,j,n,max,len;
     max=0;
-    printf("press enter twice to compare the sentences \n ");
+    printf("press enter twice to compare the sentences \n");
     while((a=getchar())!=EOF && a!='\n'){
         i=0;
         while((c=getchar())!=EOF && c!='\n'){
@@ -20,5 +20,5 @@ main(){
             } 
         }
     }
-	printf("The longest sentence here is:\n %s and has exactly %d characters",lng ,max);   
+	printf("The longest sentence here is:\n%s and has exactly %d characters",lng ,max);   
 }
