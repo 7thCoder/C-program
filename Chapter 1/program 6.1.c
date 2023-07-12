@@ -18,7 +18,6 @@ void remove_comments(){
                     state=IN;
                 }
                 else if((c=='/')){ // else if we encountr a slash
-                    c=getchar();
                     putchar('\n');
                 }
                 else{
@@ -31,7 +30,6 @@ void remove_comments(){
             }
         }
         else{ // if we are in a comment (State==IN)
-            c=getchar();
             if((c=='*')){
                 c=getchar();
                 if((c=='/')){
