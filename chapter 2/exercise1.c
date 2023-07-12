@@ -1,4 +1,4 @@
-//This program converts letters to their decimal values
+//This program converts hexadecimal numbers to their decimal equivalent
 
 #include<stdio.h>
 #include<ctype.h>
