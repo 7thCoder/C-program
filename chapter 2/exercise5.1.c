@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <ctype.h>
 
-#define MAX 50 //defines the maximum size of an array
+#define MAX 100 //defines the maximum size of an array
 
 void expand(char s1[], char s2[]){
     
@@ -39,8 +39,8 @@ int main(){
     
     int i=0;
     char c;
-    char s[100];
-    char fin[100];
+    char s[MAX];
+    char fin[MAX];
 
     printf("Enter sequence: \n");
     while((c=getchar())!=EOF && c!='\n'){
