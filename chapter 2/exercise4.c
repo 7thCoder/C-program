@@ -1,4 +1,5 @@
 //This program replaces tabs with /t in a sentence
+//and replaces spaces with tabs
 #include <stdio.h>
 
 #define MAX 50
@@ -11,13 +12,23 @@ void escape(char s[],char t[], int i){
                 t[j]='\\';
                 t[j+1]= 't';
                 break;
-            case'\n':
-                t[j] ='\\';
-                t[j+1]='n';
             default: 
                 t[j]=s[j];
         }
 
+    }
+}
+
+void unescape(char s[]){
+    int j;
+    for(j=0; s[j]!='\n' ;j++){
+        switch(s[j]){
+        case ' ':
+            s[j]='\t';
+            break;
+        default:
+            ;
+        }
     }
 }
 
@@ -34,6 +45,9 @@ int main(){
         len++;
     }
 
-    escape(c,d,len);
-    printf(" %s",d);
+    // escape(c,d,len);
+    // printf(" %s",d);
+
+    unescape(c);
+    printf(" %s",c);
 }
