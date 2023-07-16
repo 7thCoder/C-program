@@ -1,2 +1,2 @@
 # C-program
-All my C programs.
+Solving C programs from the C programming language book
