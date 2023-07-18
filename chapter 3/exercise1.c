@@ -1,28 +1,27 @@
+//This progran appends the string t to eh end of the string s using pointers
+
 #include <stdio.h>
 #include <string.h>
 
-void strctr(char *s, char *t) 
-{ 
-    while (*s != '\0') 
-        s++; 
+void strct(char *s, char *t){
 
-    while (*t != '\0') { 
-        *s = *t; 
-        s++; 
-        t++; 
-    } 
+    while(*s!='\0'){
+        s++;
+    }
 
-    *s = '\0'; 
+    while(*t!='\0'){
+        *s+=*t;
+        s++;
+        t++;
+    }
+
+    *s='\0';
 } 
+ int main (void){
+    char st1[]="Hello world ";
+    char st2[]="i am a coder ";
 
-int main() 
-{ 
-    char s[] = "Hello wordl"; 
-    char t[] = "I am a coder"; 
+    strct(st1,st2);
 
-    strctr(s, t); 
-
-    printf("Concatenated string: %s", s); 
-
-    return 0; 
-} 
+    printf("concatenated string: %s",st1);
+ }
