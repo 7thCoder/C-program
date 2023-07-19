@@ -1,5 +1,8 @@
-//v 5.1 A moficication of program 5
-//(check program 5 for description)
+/*
+ * Name: @7thCoder
+ * Description: check program 5 for description
+ * Date: 14/07/2023
+*/
 
 #include <stdio.h>
 #include <ctype.h>

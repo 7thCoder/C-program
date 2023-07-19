@@ -1,5 +1,8 @@
-/*This program finds all occurence of a particular character 
-in a sentence and returns their position*/
+/*
+ * Name: @7thCoder
+ * Description: This program finds all occurence of a particular character in a sentence and returns their position
+ * Date: 13/07/2023
+*/
 
 #include <stdio.h>
 

@@ -1,5 +1,9 @@
-//This program replaces tabs with /t in a sentence
-//and replaces spaces with tabs
+/*
+ * Name: @7thCoder
+ * Description: This program replaces tabs with /t in a sentence and replaces spaces with tabs
+ * Date: 14/07/2023
+*/
+
 #include <stdio.h>
 
 #define MAX 50

@@ -1,4 +1,8 @@
-//This program converts hexadecimal numbers to their decimal equivalent
+/*
+ * Name: @7thCoder
+ * Description: This program converts hexadecimal numbers to their decimal equivalent
+ * Date: 12/07/2023
+*/
 
 #include<stdio.h>
 #include<ctype.h>

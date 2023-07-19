@@ -1,5 +1,9 @@
-//This program completes a sequence of numbers or letters
-// It has many limitations so check out version 5.1
+/*
+ * Name: @7thCoder
+ * Description:  This program completes a sequence of numbers or letters`
+ *  It has many limitations so check out version 5.1
+ * Date: 14/07/2023
+*/
 
 #include<stdio.h>
 

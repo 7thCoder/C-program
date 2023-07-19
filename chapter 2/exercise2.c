@@ -1,4 +1,8 @@
-//This program removes the specified character from the sentence entered
+/*
+ * Name: @7thCoder
+ * Description: This program removes the specified character from the sentence entered
+ * Date: 12/07/2023
+*/
 
 #include <stdio.h>
 

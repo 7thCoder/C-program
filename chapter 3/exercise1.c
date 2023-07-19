@@ -1,4 +1,8 @@
-//This progran appends the string t to eh end of the string s using pointers
+/*
+ * Name: @7thCoder
+ * Description: This progran appends the string t to the end of the string s using pointers
+ * Date: 14/07/2023
+*/
 
 #include <stdio.h>
 #include <string.h>
@@ -23,5 +27,5 @@ void strct(char *s, char *t){
 
     strct(st1,st2);
 
-    printf("concatenated string: %s",st1);
+    // printf("concatenated string: %s",st1);
  }
