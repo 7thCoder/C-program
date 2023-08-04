@@ -7,7 +7,7 @@
 #include<stdio.h>
 #include<ctype.h>
 
-int todec(char c){
+int todec(char c){ //this function convers the letters to their decimal equivalent
     if(isdigit(c)){
         return c - '0';
     }
@@ -19,7 +19,7 @@ int todec(char c){
     }
 }
 
-int htoi(char s[]){
+int htoi(char s[]){ // this function converts the hexadecimal input to the integer 
     int i, n;
     n=0;
     while(isxdigit(s[i])){
