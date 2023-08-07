@@ -17,10 +17,10 @@ void transpose(int** ar,int row,int col){
         }
     }
 
-    printf("Result: \n");
+    printf("\nArray after transposing: \n");
     for(i=0;i<col;i++){
         for(j=0;j<row;j++){
-            printf("%d",temp[i][j]);
+            printf("\t%d",temp[i][j]);
         }
         printf("\n");
     }
@@ -58,10 +58,10 @@ int main(){
         }
     }
 
-    printf("Array before transposing: \n");
+    printf("\nArray before transposing: \n");
     for(i=0;i<row;i++){
         for(j=0;j<col;j++){
-            printf("%d",matr[i][j]);
+            printf("\t%d",matr[i][j]);
         }
         printf("\n");
     }
